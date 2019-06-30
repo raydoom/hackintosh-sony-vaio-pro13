@@ -189,16 +189,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable 9MB cursor bytes,0x0a260006</string>
-				<key>Find</key>
-				<data>BgAmCgEDAwMAAAACAAAwAQAAYAA=</data>
-				<key>Name</key>
-				<string>AppleIntelFramebufferAzul</string>
-				<key>Replace</key>
-				<data>BgAmCgEDAwMAAAACAAAwAQAAkAA=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Enable 9MB cursor bytes, 0x0a260006</string>
 				<key>Disabled</key>
 				<false/>
