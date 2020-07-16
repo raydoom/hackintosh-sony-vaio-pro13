@@ -9,5 +9,4 @@
 | 内存     | 8GB            |
 | 硬盘     | TOSHIBA THNSNH256G8NT                 |
 | 集成显卡 | 英特尔 HD5000                          |
-| 声卡     | Conexant CX20753/4 (节点:15)          |
 | 网卡     | BCM94352Z(自己更换)                   |
