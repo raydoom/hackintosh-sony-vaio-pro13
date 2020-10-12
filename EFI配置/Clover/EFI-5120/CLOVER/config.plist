@@ -8,32 +8,11 @@
 		<dict>
 			<key>Fixes</key>
 			<dict>
-				<key>AddMCHC</key>
-				<true/>
 				<key>FixHPET</key>
-				<true/>
-				<key>FixTMR</key>
 				<true/>
 				<key>AddPNLF_1000000</key>
 				<true/>
 			</dict>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change EHC1 to EH01</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
-				</dict>
-			</array>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -64,9 +43,9 @@
 		<key>Arguments</key>
 		<string>keepsyms=1 dart=0 debug=0x100 -cdfon -v</string>
 		<key>DefaultVolume</key>
-		<string>macOS</string>
+		<string>Macintosh HD</string>
 		<key>Timeout</key>
-		<integer>-1</integer>
+		<integer>5</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -177,54 +156,16 @@
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				g/sPDw==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.iokit.IOUSBHostFamiry</string>
-				<key>Replace</key>
-				<data>
-				g/s/Dw==
-				</data>
-			</dict>
-			<dict>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				g/kPDw==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g/k/Dw==
-				</data>
-			</dict>
-			<dict>
 				<key>Comment</key>
-				<string>External Icons Patch</string>
+				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>InfoPlistPatch</key>
 				<false/>
+				<key>Find</key>
+				<data>AEFQUExFIFNTRAA=</data>
 				<key>Name</key>
-				<string>AppleAHCIPort</string>
+				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>AAAAAAAAAAAAAAA=</data>
 			</dict>
 		</array>
 	</dict>
